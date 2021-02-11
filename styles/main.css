@@ -20,7 +20,9 @@ article {
     margin-top: 40px;
     line-height: 30px;
   }
-
+.tab {
+    margin: 5%;
+}
  .button {
     background-color: #070707; /* Green */
     border-radius: 50%;
