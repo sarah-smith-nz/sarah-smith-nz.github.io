@@ -4,6 +4,27 @@
     -ms-box-sizing: border-box;
     box-sizing: border-box;
 }
+
+@media screen 
+  and (min-device-width: 1200px) 
+  and (max-device-width: 1600px) 
+  and (-webkit-min-device-pixel-ratio: 1) { 
+}
+
+@media only screen 
+  and (min-device-width: 768px) 
+  and (max-device-width: 1024px) 
+  and (-webkit-min-device-pixel-ratio: 2) {
+
+}
+
+/* Portrait and Landscape iphones*/
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 667px) 
+  and (-webkit-min-device-pixel-ratio: 2) { 
+
+}
 */* {
     border: 1px solid red;
 } */
@@ -13,9 +34,24 @@
 a {
     text-decoration: none;
 }
+
 body {
     background-color: rgb(233, 212, 226);
+
 }
+@media screen and (min-width: 400px) {
+    body {
+    background-color: rgb(233, 212, 226);
+
+}
+}
+
+@media screen and (min-width: 800px) {
+    body {
+      background-color: lightgreen;
+    }
+  }
+
 article {
     margin-top: 40px;
     line-height: 30px;
@@ -33,6 +69,12 @@ article {
   text-decoration: none;
   display: inline-block;
   font-size: 80%;
+  }
+  @media screen and (max-width: 600px) {
+    .button {
+        background-color: #3f0052; /* Green */
+      width: 100%;
+    }
   }
 
 .button:hover {
@@ -140,4 +182,5 @@ footer {
     border-top: 3px solid slategray !important;
     
 }
+
 
