@@ -41,14 +41,14 @@ body {
 }
 @media screen and (min-width: 400px) {
     body {
-    background-color: rgb(233, 212, 226);
+    background-color: lightgreen;
 
 }
 }
 
 @media screen and (min-width: 800px) {
     body {
-      background-color: lightgreen;
+      background-color: rgb(233, 212, 226);
     }
   }
 
